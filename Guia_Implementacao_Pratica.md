@@ -273,16 +273,16 @@ memory:create_entities([
 
 ### **TROUBLESHOOTING COMUM**
 
-**Problema**: Memory não lembra informações importantes
+**Problema**: Memory não lembra informações importantes  
 **Solução**: Verificar se entidades foram criadas com `memory:read_graph()`
 
-**Problema**: Muitas entidades similares
+**Problema**: Muitas entidades similares  
 **Solução**: Consolidar usando `memory:delete_entities()` e recriar
 
-**Problema**: Dificuldade para encontrar informações
+**Problema**: Dificuldade para encontrar informações  
 **Solução**: Melhorar nomeação e adicionar mais observações descritivas
 
-**Problema**: Relações confusas
+**Problema**: Relações confusas  
 **Solução**: Revisar tipos de relação e usar sempre voz ativa
 
 ---
